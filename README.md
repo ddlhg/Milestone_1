@@ -1,7 +1,7 @@
 # Milestone 1 Project Proposal and High-level Description # 
  
 Group: Team 1
-Team Lead
+## Team Lead ##
 Gikai Andrews - gandrews2020@fau.edu
  
 ## Team members ##
