@@ -13,6 +13,16 @@ not slowing down. Any increase in users at a single instance will result in slow
 2 seconds which is an acceptable industry standard.
 1.3. Transaction speed per request- The transaction speed should be under five seconds to avoid users from getting impatient which may lead them to leave the webpage 
 ideally we will be aiming for a time of about 3 seconds.
+1.4 Realiability- The webpage must be reliable and should be glitching or failing on a continous basis. The website should be kept current and up todate to eliminate
+failures and crashes any point in time. The most acceptable for this new app may be one crash or failure per month.
+1.5 Storage Utilization- The websit should run and utilize the allocated memory it was given, it should not allow to accumulate extra files and temporay files will
+grow the memory in a significant way that all the allocated memory will be used up causing a crash of the site.
+1.6 Recovery- The website should be easily recovered in case of any failure and should be able to be put back in service with 30 minutes of any failure, since this is
+a small website catered to a limited range of people. 
+1.7 Back up- An entire back up file of all website data should be kept so that it may easily be loaded back into the system to allow for continuity of service.
+
+
+
 
 
 
