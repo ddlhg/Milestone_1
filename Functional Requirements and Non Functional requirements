@@ -30,7 +30,14 @@ will be a key feature of the website.
 3.1.The website should be acessible over a range of internet bandwidths. The rannge should cater for speeds 25Mbps and upwards.
 3.2 The website should be able to load from a variety of internet browsers. These should include but not be limited to Firefox,Chrome, Microsoft edge and Safari.
 
-4.
+4.Expected Load- The expected load is an average of ten users at a time . We anticipate this as this website and service will be used by the students of Florida 
+Atlantic University only. The initial version may cater for the Boca Raton campus then expand to the davie and harbor branch eventually.
+
+5. Security Requirements 
+5.1 The security requirements will require a FAU email to login  along with a password
+5.2 The duo app or a similar type of authentication will be used to ensure only FAU assosiated students are allowed to use the service.
+
+
 
 
 
