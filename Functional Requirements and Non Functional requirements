@@ -17,9 +17,10 @@ ideally we will be aiming for a time of about 3 seconds.
 failures and crashes any point in time. The most acceptable for this new app may be one crash or failure per month.
 1.5 Storage Utilization- The websit should run and utilize the allocated memory it was given, it should not allow to accumulate extra files and temporay files will
 grow the memory in a significant way that all the allocated memory will be used up causing a crash of the site.
-1.6 Recovery- The website should be easily recovered in case of any failure and should be able to be put back in service with 30 minutes of any failure, since this is
-a small website catered to a limited range of people. 
-1.7 Back up- An entire back up file of all website data should be kept so that it may easily be loaded back into the system to allow for continuity of service.
+1.6 Recovery/Robustness- The website should be easily recovered in case of any failure and should be able to be put back in service with 30 minutes of any failure, since this is
+a small website catered to a limited range of people.
+
+1.7 Back up/ Survivvability- An entire back up file of all website data should be kept so that it may easily be loaded back into the system to allow for continuity of service.
 
 2.Usability
 2.1 Ease of use- The website should be easy for anyone with basic computer skills should be able to trained or adapt to using the website easily. Ease of use
@@ -37,7 +38,20 @@ Atlantic University only. The initial version may cater for the Boca Raton campu
 5.1 The security requirements will require a FAU email to login  along with a password
 5.2 The duo app or a similar type of authentication will be used to ensure only FAU assosiated students are allowed to use the service.
 
+6.Portability- The websit will be avaialbale on for use on desktops, laptops and tablets via a webbrowser eventually there are plans to exten this to a android
+and ios app.
 
+7.Supportability
+The coding to be used will be HTML and CSS. The figma app will be used for testing the page 
+
+8. Availability
+8.1 The system must be reliable ad available 24 hours a day 365 days of the year.
+8.2 The Tech support will be available via an email system.
+8.3 All attempts will be made to ensure the continous if there a need for any downtime communication will be sent out to all users.
+
+9. Fault Tolerance 
+All attemps will be made to handle any sort of exception handling that may be needed for this app. All attempts will be made to handle this within
+allocated resources.
 
 
 
