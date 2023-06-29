@@ -1,2 +1,117 @@
 Overview, Scenario, and Use Cases:
 
+RideMate is a rideshare application that has been developed by a group of college
+students. The goal of the appliance is to provide transportation services for college
+students so they can travel all over campus. Also, our goal is to ensure that we have fair
+and reasonable pricing for the rideshares. We can offer competitive pricing options,
+including student discounts or discounted rates for frequent users. This can make the app
+more appealing to cost-conscious college students who are looking for affordable
+transportation options within their limited budgets. Ridemate will include enhanced
+safety measures because we do emphasize our commitment to ensuring a safe and secure
+transportation system/experience for college students. Also, we can do a seamless
+integration with Campus Life. Our application could establish partnerships/integrations
+with the college administration or student services. We could also collaborate with
+campus security for enhanced safety measures, integrating with the college’s official app
+for seamless navigation and scheduling, etc.
+Scenarios
+● Morning Commute: Sarah, a college student, uses a ride-sharing app to request a
+ride from her off-campus apartment to the university every morning. The app
+matches her with a nearby driver who drops her off at the main entrance of the
+campus, saving her time and hassle.
+● Late-Night Study Session: John is studying late at the library on campus and
+realizes it's past midnight. Feeling unsafe walking alone at this hour, he opens the
+ride-sharing app to request a ride back to his dormitory. The app promptly assigns
+a driver who picks him up and safely drops him off at his dormitory entrance.
+● Group Outing: A group of friends wants to go to a concert happening downtown.
+Instead of relying on public transportation, they use a ride-sharing app to request a
+ride together. They select a meeting point on campus, and the app matches them
+with a driver who can accommodate their group size. The driver takes them
+directly to the concert venue and later returns to pick them up for a hassle-free ride
+back to campus.
+● Off-Campus Errands: Lisa needs to run errands outside of the campus area. She
+uses the ride-sharing app to request a ride to the grocery store, bank, and
+pharmacy. The driver waits for her during each stop and then takes her back to
+campus. This saves her time and eliminates the need for multiple transportation
+arrangements.
+Use Cases
+Use Case - Search
+The user comes to the page and wants to use the search field to find rideshare. The user
+arrives at the main page and uses the search field to enter search criteria. The application
+displays the search results for the location they want to go and the user picks among the
+search results.
+1. Description:
+The use case describes the process of how the User will utilize the search feature
+of the system.
+2. Actors:
+2.1 User
+2.2 System
+3. Preconditions:
+3.1 User has an active Internet connection
+3.2 System is available
+4. Primary Flow of Events:
+4.1 User arrives on the web page.
+4.2 User enters search criteria of location in the search field
+4.3 Web page displays relevant search results.
+4.4 User selects Location from the search results.
+4.5 Terminate Use Case: Search
+5. Alternate Flows
+5.1 User Enters Prohibited Characters/Format into Search Bar
+If, in step 2, the user enters prohibited characters or a prohibited format in the
+search bar. (User enters all numbers or punctuation)
+1. Website notifies users that the characters they used are prohibited
+2. Return to Step 1
+5.2 Users enter Unknown Location
+If, in step 2, the user enters a location/activity that doesn’t exist in the database.
+1. System performs Use Case: Add a Location
+2. Terminate Use Case: Search
+Use Case - Availability
+The user searches for rideshare on the main page and of course gets the results they want.
+The user goes to the calendar and has the opportunity to schedule the rideshare now or in
+the future. The application opens up a calendar with time slots to make the user
+flexibility.
+1. Description
+The use case describes the process of how the User will utilize the availability
+system.
+2. Actors:
+2.1 User
+2.2 System
+3. Preconditions
+3.1 User has an active Internet connection.
+3.2 System is available.
+4. Primary Flow of Events
+1. The user arrives at the main page.
+2. User does confirmation of rideshare.
+3. Web Page pops up with a calendar and time slots of when the user wants to get
+picked up.
+4. User selects the time and date for rideshare pickup.
+Use Case - Location
+1. Description
+The use case describes the process of how they selected the pickup and drop-off
+location in the application.
+2. Actors:
+2.1 User
+2.2 System
+3. Preconditions
+3.1 User has an active Internet connection
+3.2 System is available
+4. Primary Flow of Events
+1. The user arrives at the main page
+2. User types in the search field what location to go to
+3. User confirms dropoff location and rideshare
+4. The user chooses the pickup location whether it's exactly where they are or
+anywhere else.
+Use Case - Rating/Tipping
+1. Description
+The user wants to give a rating and tip to the rideshare driver after completing the
+rideshare.
+2. Actors:
+2.1 User
+2.2 System
+3. Preconditions
+3.1 User has an active Internet connection.
+3.2 System is available.
+4. Primary Flow of Events
+1. The user arrives at the review page after the rideshare trip has been completed.
+2. The user looks through the rideshare driver, optional tip options, and rating
+system.
+3. The user picks how much of a rating the user wants to give the rideshare driver
