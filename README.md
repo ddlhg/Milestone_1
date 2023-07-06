@@ -19,3 +19,5 @@ Gikai Andrews - gandrews2020@fau.edu
 - High-level Functional Requirements   
 - Non-Functional Requirements            
 - High-level system architecture
+- High-Level UML diagrams
+- Identify actual key risks
